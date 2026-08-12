@@ -2,6 +2,7 @@ package neki.com.Backend.service;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import neki.com.Backend.dto.EventoAtualizadoRequest;
@@ -14,6 +15,7 @@ import neki.com.Backend.model.Evento;
 import neki.com.Backend.repository.AdministradorRepository;
 import neki.com.Backend.repository.EventoRepository;
 
+@Service
 public class EventoService {
     private final EventoRepository eventoRepository;
 	private final AdministradorRepository administradorRepository;
