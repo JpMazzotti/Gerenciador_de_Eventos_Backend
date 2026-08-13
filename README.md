@@ -8,13 +8,14 @@ Feito como parte de um desafio de estudo.
 
 | Tecnologia | Para que serve |
 |---|---|
-| Java 17 | 
-| Spring Boot | 
-| Spring Data JPA + Hibernate |
+| Java 17 | Linguagem de programação do projeto |
+| Spring Boot | Framework que monta o servidor e facilita criar a API |
+| Spring Data JPA + Hibernate | Cuida do banco de dados e das tabelas |
 | H2 | Banco de dados em memória (os dados não são salvos em disco) |
 | Spring Security + JWT | Segurança: login e controle de acesso com token |
-| Swagger (springdoc) | 
-| Maven |
+| Swagger (springdoc) | Documentação automática da API |
+| Maven | Ferramenta de build que baixa e organiza as dependências |
+
 
 ## Como rodar o projeto
 
